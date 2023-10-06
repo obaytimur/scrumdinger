@@ -18,6 +18,8 @@
 		EE08B7BC2ACF0BEC00F3E7E2 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08B7BB2ACF0BEC00F3E7E2 /* ScrumProgressViewStyle.swift */; };
 		EE08B7BE2ACF0F9900F3E7E2 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08B7BD2ACF0F9900F3E7E2 /* ScrumTimer.swift */; };
 		EE08B7C02ACF16C100F3E7E2 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08B7BF2ACF16C100F3E7E2 /* MeetingFooterView.swift */; };
+		EE08B7C52AD022C200F3E7E2 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08B7C42AD022C200F3E7E2 /* AVPlayer+Ding.swift */; };
+		EE08B7C82AD022D500F3E7E2 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE08B7C72AD022D500F3E7E2 /* ding.wav */; };
 		EED62EF22ACB2CEA00C3262B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED62EF12ACB2CEA00C3262B /* Theme.swift */; };
 		EED62EF42ACB2E6800C3262B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED62EF32ACB2E6800C3262B /* DailyScrum.swift */; };
 		EED62EF62ACB302E00C3262B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED62EF52ACB302E00C3262B /* CardView.swift */; };
@@ -42,6 +44,8 @@
 		EE08B7BB2ACF0BEC00F3E7E2 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		EE08B7BD2ACF0F9900F3E7E2 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		EE08B7BF2ACF16C100F3E7E2 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		EE08B7C42AD022C200F3E7E2 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		EE08B7C72AD022D500F3E7E2 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		EED62EF12ACB2CEA00C3262B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		EED62EF32ACB2E6800C3262B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		EED62EF52ACB302E00C3262B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 				EE08B7C32ACF3E5F00F3E7E2 /* Views */,
 				AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */,
 				AAAE8023294793AB0099DABC /* Assets.xcassets */,
+				EE08B7C62AD022D500F3E7E2 /* Resources */,
 				AAAE8025294793AB0099DABC /* Preview Content */,
 			);
 			path = Scrumdinger;
@@ -126,9 +131,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		EE08B7C62AD022D500F3E7E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE08B7C72AD022D500F3E7E2 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		EED62EF02ACB2CCE00C3262B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EE08B7C42AD022C200F3E7E2 /* AVPlayer+Ding.swift */,
 				EED62EF32ACB2E6800C3262B /* DailyScrum.swift */,
 				EE08B7BD2ACF0F9900F3E7E2 /* ScrumTimer.swift */,
 				EED62EF12ACB2CEA00C3262B /* Theme.swift */,
@@ -194,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE08B7C82AD022D500F3E7E2 /* ding.wav in Resources */,
 				AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */,
 				AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */,
 			);
@@ -221,6 +236,7 @@
 				AAAE8020294793AB0099DABC /* ScrumdingerApp.swift in Sources */,
 				EE08B7B62ACE9FF600F3E7E2 /* ThemeView.swift in Sources */,
 				EED62EF62ACB302E00C3262B /* CardView.swift in Sources */,
+				EE08B7C52AD022C200F3E7E2 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
