@@ -64,7 +64,7 @@ struct DetailView: View {
                         ToolbarItem(placement: .confirmationAction) {
                             Button ("Done") {
                                 isPresentingEditView = false
-                                editingScrum = scrum
+                                scrum = editingScrum
                             }
                         }
                     }

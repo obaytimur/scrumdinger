@@ -83,8 +83,8 @@
 		AAAE801E294793AB0099DABC /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				EE08B7C32ACF3E5F00F3E7E2 /* Views */,
 				EED62EF02ACB2CCE00C3262B /* Models */,
+				EE08B7C32ACF3E5F00F3E7E2 /* Views */,
 				AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */,
 				AAAE8023294793AB0099DABC /* Assets.xcassets */,
 				AAAE8025294793AB0099DABC /* Preview Content */,
@@ -111,6 +111,17 @@
 		EE08B7C32ACF3E5F00F3E7E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EED62EF52ACB302E00C3262B /* CardView.swift */,
+				EE08B7B32ACDF2C400F3E7E2 /* DetailEditView.swift */,
+				EED62EFB2ACDDACF00C3262B /* DetailView.swift */,
+				EE08B7BF2ACF16C100F3E7E2 /* MeetingFooterView.swift */,
+				EE08B7B92ACF059C00F3E7E2 /* MeetingHeaderView.swift */,
+				AAAE8021294793AB0099DABC /* MeetingView.swift */,
+				EE08B7BB2ACF0BEC00F3E7E2 /* ScrumProgressViewStyle.swift */,
+				EED62EF92ACC334500C3262B /* ScrumsView.swift */,
+				EE08B7B72ACEA33000F3E7E2 /* ThemePicker.swift */,
+				EE08B7B52ACE9FF600F3E7E2 /* ThemeView.swift */,
+				EED62EF72ACBFBFD00C3262B /* TrailingIconLabelStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,20 +129,9 @@
 		EED62EF02ACB2CCE00C3262B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EE08B7BD2ACF0F9900F3E7E2 /* ScrumTimer.swift */,
-				EE08B7BB2ACF0BEC00F3E7E2 /* ScrumProgressViewStyle.swift */,
-				EED62EF12ACB2CEA00C3262B /* Theme.swift */,
 				EED62EF32ACB2E6800C3262B /* DailyScrum.swift */,
-				EED62EF52ACB302E00C3262B /* CardView.swift */,
-				EED62EF72ACBFBFD00C3262B /* TrailingIconLabelStyle.swift */,
-				EED62EF92ACC334500C3262B /* ScrumsView.swift */,
-				EED62EFB2ACDDACF00C3262B /* DetailView.swift */,
-				AAAE8021294793AB0099DABC /* MeetingView.swift */,
-				EE08B7B32ACDF2C400F3E7E2 /* DetailEditView.swift */,
-				EE08B7B52ACE9FF600F3E7E2 /* ThemeView.swift */,
-				EE08B7B72ACEA33000F3E7E2 /* ThemePicker.swift */,
-				EE08B7B92ACF059C00F3E7E2 /* MeetingHeaderView.swift */,
-				EE08B7BF2ACF16C100F3E7E2 /* MeetingFooterView.swift */,
+				EE08B7BD2ACF0F9900F3E7E2 /* ScrumTimer.swift */,
+				EED62EF12ACB2CEA00C3262B /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
