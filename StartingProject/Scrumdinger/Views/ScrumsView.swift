@@ -2,7 +2,9 @@
 //  ScrumsView.swift
 //  Scrumdinger
 //
-//  Created by Oğulcan Baytimur on 03/10/2023.
+//  Created by Oğulcan Baytimur on 03/10/2023. change for git
+
+
 //
 
 import SwiftUI
