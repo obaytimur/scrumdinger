@@ -23,6 +23,8 @@
 		EE08B7CA2AD026D500F3E7E2 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08B7C92AD026D500F3E7E2 /* NewScrumSheet.swift */; };
 		EE08B7CC2AD029E200F3E7E2 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08B7CB2AD029E200F3E7E2 /* History.swift */; };
 		EE08B7CE2AD032CD00F3E7E2 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08B7CD2AD032CD00F3E7E2 /* ScrumStore.swift */; };
+		EE2C5A752AD6CAAB0039DB07 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C5A742AD6CAAB0039DB07 /* MeetingTimerView.swift */; };
+		EE2C5A772AD6CEA90039DB07 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C5A762AD6CEA90039DB07 /* SpeakerArc.swift */; };
 		EED62EF22ACB2CEA00C3262B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED62EF12ACB2CEA00C3262B /* Theme.swift */; };
 		EED62EF42ACB2E6800C3262B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED62EF32ACB2E6800C3262B /* DailyScrum.swift */; };
 		EED62EF62ACB302E00C3262B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED62EF52ACB302E00C3262B /* CardView.swift */; };
@@ -54,6 +56,8 @@
 		EE08B7C92AD026D500F3E7E2 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		EE08B7CB2AD029E200F3E7E2 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		EE08B7CD2AD032CD00F3E7E2 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		EE2C5A742AD6CAAB0039DB07 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		EE2C5A762AD6CEA90039DB07 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		EEADB56B2AD594D100250DC6 /* Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scrumdinger.entitlements; sourceTree = "<group>"; };
 		EED62EF12ACB2CEA00C3262B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		EED62EF32ACB2E6800C3262B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				EED62EF72ACBFBFD00C3262B /* TrailingIconLabelStyle.swift */,
 				EE08B7C92AD026D500F3E7E2 /* NewScrumSheet.swift */,
 				EED6610D2AD57F8D00F9EA01 /* ErrorView.swift */,
+				EE2C5A742AD6CAAB0039DB07 /* MeetingTimerView.swift */,
+				EE2C5A762AD6CEA90039DB07 /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,8 +248,10 @@
 				EE08B7B82ACEA33000F3E7E2 /* ThemePicker.swift in Sources */,
 				EE08B7BC2ACF0BEC00F3E7E2 /* ScrumProgressViewStyle.swift in Sources */,
 				EE08B7C02ACF16C100F3E7E2 /* MeetingFooterView.swift in Sources */,
+				EE2C5A772AD6CEA90039DB07 /* SpeakerArc.swift in Sources */,
 				EED6610E2AD57F8D00F9EA01 /* ErrorView.swift in Sources */,
 				EE08B7BE2ACF0F9900F3E7E2 /* ScrumTimer.swift in Sources */,
+				EE2C5A752AD6CAAB0039DB07 /* MeetingTimerView.swift in Sources */,
 				EED62EF42ACB2E6800C3262B /* DailyScrum.swift in Sources */,
 				EE08B7CE2AD032CD00F3E7E2 /* ScrumStore.swift in Sources */,
 				EED62EFC2ACDDACF00C3262B /* DetailView.swift in Sources */,
@@ -298,8 +306,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: baytimurogulcan@gmail.com (WM995FVZ2L)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S5ZBBP3832;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -360,8 +372,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: baytimurogulcan@gmail.com (WM995FVZ2L)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S5ZBBP3832;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -390,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Scrumdinger.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development: baytimurogulcan@gmail.com (WM995FVZ2L)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
@@ -424,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Scrumdinger.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development: baytimurogulcan@gmail.com (WM995FVZ2L)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
